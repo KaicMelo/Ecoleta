@@ -1,0 +1,3 @@
+/node_modules
+/src/database/connections.ts
+/web/node_modules
