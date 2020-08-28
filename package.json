@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "seed": "npx knex seed:run",
+    "migrate": "npx knex migrate:latest"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +22,7 @@
     "@types/cors": "^2.8.7",
     "@types/express": "^4.17.7",
     "ts-node": "^8.10.2",
-    "ts-node-dev": "^1.0.0-pre.56",
+    "ts-node-dev": "^1.0.0-pre.61",
     "typescript": "^3.9.7"
   }
 }
